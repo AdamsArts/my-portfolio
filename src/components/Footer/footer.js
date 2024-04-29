@@ -47,7 +47,7 @@ const footer = () => {
               <IoIosMail size={30} className='FooterIcons' /> <span><a href='mailto:your.email@example.com' target='_blank' className='ContactLinks'>adambhai001@gmail.com</a></span>
             </div>
             <div className='ContactDet'>
-              <FaLocationDot size={30} className='FooterIcons' /> <span><a href='https://maps.app.goo.gl/WuZA5PGZnX5gESbf7' target='_blank' className='ContactLinks'>Sholinghur, Tamilnadu.</a></span>
+              <FaLocationDot size={30} className='FooterIcons' /> <span><a href='https://maps.app.goo.gl/pu5Wowrgs4jsTYZv6' target='_blank' className='ContactLinks'>Sholinghur, Tamilnadu.</a></span>
             </div>
             </div>
               {/* <div className='ContactDet'>

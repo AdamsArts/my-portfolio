@@ -5,7 +5,7 @@
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
-    height: 45vh;
+    height: 55vh;
     margin-bottom: 15%;
     padding-top: 10%;
   }
@@ -73,7 +73,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
-  
+  color: black;
 }
 
 .prev-button {
@@ -92,6 +92,13 @@
 .TitleName{
   text-align: center;
 }
+.AchivementDesclaimer{
+  text-align: center;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  /* position: relative; */
+  color: rgb(250, 58, 58);
+}
 
 
 
@@ -105,7 +112,7 @@
     width: 80%;
     padding-left: 10%;
     padding-right: 10%;
-    height: 50vh;
+    height: 58vh;
   }
 .carousel-container {
   margin-top: 10%;
@@ -167,6 +174,7 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  color: black;
 }
 
 .prev-button {
@@ -182,6 +190,13 @@
 }
 .TitleName{
   text-align: center;
+}
+.AchivementDesclaimer{
+  text-align: center;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  /* position: relative; */
+  color: rgb(250, 58, 58);
 }
 
 }
@@ -264,15 +279,18 @@
   /* background-color: aqua; */
   position: absolute;
   margin-left: -10%;
+  color: black;
 }
 
 .next-button {
   /* background-color: aqua; */
   position: absolute;
   right: -10%;
+  color: black;
 }
 .TitleName{
   text-align: center;
+  font-size: large;
 }
 
   

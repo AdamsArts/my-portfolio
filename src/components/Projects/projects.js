@@ -12,7 +12,7 @@ const projects = () => {
       <div className='projectContainer' id='ProjectSection' data-aos="zoom-in-down" data-aos-duration="1000" data-aos-mirror="true" >
 
         <div className='ProjectTitleContainer'>
-          <h2>Projects Gallery</h2>
+          <h1>Projects Gallery</h1>
         </div>
 
         <div className='projectCardsContainer'>

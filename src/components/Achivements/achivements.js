@@ -37,7 +37,7 @@ const Achivements = () => {
   return (
     <div className="Container" id="AchivementSection" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
       <div className="TitleName" >
-        <h2>My Achivements</h2>
+        <h1>My Achivements</h1>
       </div>
 
       <div className="carousel-container">

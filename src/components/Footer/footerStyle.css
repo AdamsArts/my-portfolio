@@ -12,7 +12,7 @@
 @media screen and (max-width: 768px) {
   /* Styles for screens up to 768px wide (typically mobile devices) */
   .FooterContainer{
-    height: 65vh;
+    height: 55vh;
     width: 100%;
     background-color: black;
     color: white;
@@ -214,7 +214,7 @@
     /* Styles for screens larger than 1200px */
     .FooterContainer{
       
-      height: 50vh;
+      height: 55vh;
       width: 100%;
       background-color: black;
 

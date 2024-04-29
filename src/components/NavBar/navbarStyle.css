@@ -20,6 +20,8 @@
   }
   .name{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
   }
 
   .NavBarCircular{
@@ -110,6 +112,8 @@
   }
   .name{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
   }
   a{
     text-decoration: none;
@@ -177,6 +181,8 @@
   }
   .name{
     text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
   }
   a{
     text-decoration: none;
