@@ -1,0 +1,288 @@
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (typically mobile devices) */
+
+  .Container{
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 45vh;
+    margin-bottom: 15%;
+    padding-top: 10%;
+  }
+.carousel-container {
+  position: sticky;
+  /* background-color: aqua; */
+  margin-top: 0%;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* background-color: bisque; */
+ 
+}
+
+.left-image,
+.right-image {
+  flex: 0 0 30%; /* Set width for small images */
+  border-radius: 30px; 
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.left-image img,
+.right-image img {
+  width: 100%;
+  opacity: 0.4;
+  width: 400px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 30px; 
+  overflow: hidden;
+}
+
+.main-image {
+  flex: 0 0 40%; /* Set width for main image */
+  border-radius: 30px;
+  overflow: hidden;
+  position: absolute;
+  /* transform: translateY(-50%); */
+  transition: all 0.5s ease-in-out;
+ 
+}
+
+.main-image img {
+  width: 350px;
+  height: 200px;
+  z-index: 1;
+  position: relative;
+  border-radius: 30px; 
+  overflow: hidden;
+  /* transform: translateY(-50%); */
+  transition: all 0.5s ease-in-out;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.prev-button {
+  /* background-color: aqua; */
+  position: absolute;
+  margin-left: -10%;
+  z-index: 10;
+}
+
+.next-button {
+  /* background-color: aqua; */
+  position: absolute;
+  right: -10%;
+  z-index: 10;
+}
+.TitleName{
+  text-align: center;
+}
+
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens between 769px and 1024px wide (typically tablets) */
+
+
+  .Container{
+    /* background-color: aquamarine; */
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 50vh;
+  }
+.carousel-container {
+  margin-top: 10%;
+  position: sticky;
+  /* background-color: aqua; */
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* background-color: bisque; */
+}
+
+.left-image,
+.right-image {
+  flex: 0 0 30%; /* Set width for small images */
+  border-radius: 30px; 
+  overflow: hidden;
+  flex-wrap: wrap;
+  position: static;
+  
+}
+
+.left-image img,
+.right-image img {
+  width: 100%;
+  opacity: 0.4;
+  width: 400px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 30px; 
+  overflow: hidden;
+}
+
+.main-image {
+  flex: 0 0 40%; /* Set width for main image */
+  border-radius: 30px;
+  overflow: hidden;
+  position: absolute;
+ 
+}
+
+.main-image img {
+  width: 500px;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  border-radius: 30px; 
+  overflow: hidden;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  /* background-color: aqua; */
+  position: absolute;
+  margin-left: -10%;
+}
+
+.next-button {
+  /* background-color: aqua; */
+  position: absolute;
+  right: -10%;
+}
+.TitleName{
+  text-align: center;
+}
+
+}
+@media screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (typically desktops) */
+  /* Carousel.css */
+  .Container{
+    width: 80%;
+    /* background-color: azure; */
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 8%;
+
+    height: 75vh;
+  }
+.carousel-container {
+  margin-top: 8%;
+  position: sticky;
+  /* background-color: aqua; */
+}
+
+.carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* background-color: bisque; */
+}
+
+.left-image,
+.right-image {
+  flex: 30% 30% 30%; /* Set width for small images */
+  border-radius: 30px; 
+  /* overflow: hidden; */
+  position: sticky;
+  min-width: 300px;
+  
+}
+
+.left-image img,
+.right-image img {
+  width: 100%;
+  opacity: 0.4;
+  width: 400px;
+  height: 200px;
+  z-index: -1;
+  border-radius: 30px; 
+  /* flex-wrap: wrap; */
+ 
+}
+
+.main-image {
+  flex: 40% 40% 40%; /* Set width for main image */
+  border-radius: 30px;
+  overflow: hidden;
+  position: absolute;
+ 
+}
+
+.main-image img {
+  width: 500px;
+  height: 300px;
+  z-index: 1;
+  position: relative;
+  border-radius: 30px; 
+  overflow: hidden;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-button {
+  /* background-color: aqua; */
+  position: absolute;
+  margin-left: -10%;
+}
+
+.next-button {
+  /* background-color: aqua; */
+  position: absolute;
+  right: -10%;
+}
+.TitleName{
+  text-align: center;
+}
+
+  
+}
+
+.AchivementDesclaimer{
+  text-align: center;
+  /* background-color: aqua; */
+  margin-top: 50px;
+  /* position: relative; */
+  color: rgb(250, 58, 58);
+}
+

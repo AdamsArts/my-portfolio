@@ -1,0 +1,200 @@
+@media only screen and (max-width: 767px) {
+  /* CSS rules for mobile devices */
+
+  .NavMenuContainer{
+    display: none;
+    
+  }
+  .NavbarContainer{
+    /* background-color: aqua; */
+    position: fixed;
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid black; */
+    /* display: flex; */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    z-index: 1000;
+  }
+  .name{
+    text-align: center;
+  }
+
+  .NavBarCircular{
+    
+    height: 300px;
+    width: 70px;
+    margin-top: 5px;
+    position: fixed;
+    right: 0;
+    /* background-color: aqua; */
+    z-index: 1000;
+  }
+ 
+  
+  
+  .Icons{
+    background-color: aliceblue;
+    margin: 10px;
+    font-size: x-large;
+    /* border: 2px solid black; */
+    padding: 5px;
+    border-radius: 50%;
+
+  }
+ .NavLinks{
+  color: black;
+ }
+  
+
+  
+  
+
+
+
+
+  
+
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* CSS rules for tablet devices */
+  body{
+    margin: 0;
+    padding: 0%;
+  }
+  .NavbarContainer{
+    /* background-color: aqua; */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 60px;
+    width: 100%;
+    
+    /* border: 2px solid black; */
+    display: flex;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    z-index: 1000;
+   
+    position: fixed;
+  }
+  .NavNameContainer{
+    /* background-color: rgb(18, 41, 41); */
+    height: 90px;
+    width: 40%;
+    /* border: 2px solid black; */
+    
+
+  }
+  .NavMenuContainer{
+    /* background-color: rgb(160, 233, 233); */
+    height: 60px;
+    width: 60%;
+    /* border: 2px solid black; */
+    align-content: center;
+
+  }
+  .MenuItemsContainer{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: auto;   */
+  }
+  .MenuItems{
+    /* background-color: blueviolet; */
+    list-style: none;
+    
+    margin-left: 2%;
+   
+  }
+  .name{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+
+  }
+  .NavBarCircular{
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  /* CSS rules for laptop/desktop devices */
+
+  body{
+    margin: 0;
+    padding: 0%;
+  }
+  .NavbarContainer{
+    /* background-color: aqua; */
+    /* background-color: white transparent; */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+   
+    /* margin-top: 5px; */
+    height: 70px;
+    width: 100%;
+    /* margin-top: 5px; */
+    /* border: 2px solid black; */
+    display: flex;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    z-index: 1000;
+  }
+  .NavNameContainer{
+    /* background-color: rgb(18, 41, 41); */
+    height: 90px;
+    width: 40%;
+    /* border: 2px solid black; */
+    
+
+  }
+  .NavMenuContainer{
+    /* background-color: rgb(160, 233, 233); */
+    height: 70px;
+    width: 60%;
+    /* border: 2px solid black; */
+    align-content: center;
+
+  }
+  .MenuItemsContainer{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: auto;   */
+  }
+  .MenuItems{
+    /* background-color: blueviolet; */
+    list-style: none;
+    
+    margin-left: 2%;
+   
+  }
+  .name{
+    text-align: center;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+
+  }
+  
+  .NavLinks:hover{
+    color: gold;
+    border-bottom: 1.5px solid gold;
+    padding-bottom: 2px;
+  }
+  .NavBarCircular{
+    display: none;
+  }
+  
+  
+
+}
+

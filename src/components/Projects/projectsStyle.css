@@ -1,0 +1,259 @@
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (typically mobile devices) */
+  
+  .projectContainer{
+    /* background-color: aquamarine; */
+    /* height: 90vh; */
+    padding-top: 10vh;
+    width: 100%;
+    
+  }
+  .ProjectTitleContainer{
+    text-align: center;
+  }
+  .projectCardsContainer{
+
+    width: 95%;
+    height: 100%;
+    /* background-color: beige; */
+   
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-evenly;
+    
+
+  }
+
+  
+.card {
+  margin: 2%;
+  min-width: 300px;
+  width: 25%;
+
+  height: 350px;
+  /* perspective: 800px; */
+  /* margin-top: 20%; */
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 0px #888888;
+
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+
+.card__inner {
+  position: static;
+  /* margin-top: 20%; */
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  
+}
+
+.card:hover .card__inner {
+  transform: rotateY(180deg);
+ 
+}
+
+.card__body {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card__body--front {
+  background-color: white;
+}
+
+.card__body--back {
+  background-color: antiquewhite;
+  transform: rotateY(180deg);
+}
+
+
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens between 769px and 1024px wide (typically tablets) */
+  
+  .projectContainer{
+    /* background-color: aquamarine; */
+    /* height: 90vh; */
+    padding-top: 10vh;
+    width: 100%;
+    
+  }
+  .ProjectTitleContainer{
+    text-align: center;
+  }
+  .projectCardsContainer{
+
+    width: 95%;
+    height: 100%;
+    background-color: beige;
+   
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-evenly;
+    
+
+  }
+
+  
+.card {
+  margin: 2%;
+  min-width: 300px;
+  width: 25%;
+
+  height: 350px;
+  /* perspective: 800px; */
+  /* margin-top: 20%; */
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 0px #888888;
+
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+
+.card__inner {
+  position: static;
+  /* margin-top: 20%; */
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  
+}
+
+.card:hover .card__inner {
+  transform: rotateY(180deg);
+ 
+}
+
+.card__body {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card__body--front {
+  background-color: white;
+}
+
+.card__body--back {
+  background-color: antiquewhite;
+  transform: rotateY(180deg);
+}
+
+
+
+}
+@media screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (typically desktops) */
+
+  .projectContainer{
+    /* background-color: aquamarine; */
+    /* height: 90vh; */
+    padding-top: 10vh;
+    width: 100%;
+    
+  }
+  .ProjectTitleContainer{
+    text-align: center;
+  }
+  .projectCardsContainer{
+
+    width: 95%;
+    height: 100%;
+    /* background-color: beige; */
+   
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: space-evenly;
+    
+
+  }
+
+  
+.card {
+  margin: 2%;
+  min-width: 300px;
+  width: 25%;
+
+  height: 350px;
+  /* perspective: 800px; */
+  /* margin-top: 20%; */
+  border: 2px solid black;
+  box-shadow: 5px 5px 5px 0px #888888;
+
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+  z-index: 1;
+  
+}
+
+.card__inner {
+  position: static;
+  /* margin-top: 20%; */
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+  
+}
+
+.card:hover .card__inner {
+  transform: rotateY(180deg);
+ 
+}
+
+.card__body {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  backface-visibility: hidden;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card__body--front {
+  background-color: white;
+}
+
+.card__body--back {
+  background-color: antiquewhite;
+  transform: rotateY(180deg);
+}
+
+
+
+}
+
+.projectContainer{
+  overflow-x: hidden;
+}
+.ProjectDesc{
+  margin-top: 0%;
+  width: 80%;
+  text-align: start;
+  /* background-color: aqua; */
+}

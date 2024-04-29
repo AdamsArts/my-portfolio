@@ -1,0 +1,486 @@
+@media only screen and (min-width: 510px) and (max-width: 767px) {
+
+
+
+  .AboutContainer {
+    margin: 0%;
+    margin-bottom: 5%;
+    /* background-color: red; */
+    height: 600px;
+    width: 100%;
+    padding-top: 7%;
+
+
+
+  }
+
+  .AboutHeading {
+    text-align: center;
+  }
+
+  .AboutSlideContainer {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    /* background-color: aqua; */
+  }
+
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    /* position: static; */
+    /* z-index: 1000; */
+  }
+
+  /* img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+} */
+
+  .slider {
+    /* background-color: aqua; */
+    width: 100%;
+    /* height: 100%; */
+    height: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    transition: all 0.5s;
+    /* overflow: unset; */
+    border-radius: 40px;
+  }
+
+  .slide {
+    border-radius: 5px;
+    width: 100%;
+    height: 10vh;
+    /* position: relative; */
+    /* text-align: center; */
+    transition: 0.5s;
+  }
+
+
+  .slider .slide:nth-child(1) {
+    background: url("../Assets/AboutSchool.jpg");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(2) {
+    background: url("../Assets/AboutCollege.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(3) {
+    background: url("../Assets/AboutPG.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(4) {
+    background: url("../Assets/AboutIntern.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(5) {
+    background: url("../Assets/AboutJob.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:hover {
+    height: 330px;
+
+    /* cursor: pointer; */
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+
+}
+
+
+/* Styles for screens up to 767px (small screens) */
+@media only screen and (max-width: 510px) {
+  /* Styles for screens up to 767px */
+
+
+
+  .AboutContainer {
+    margin: 0%;
+    margin-bottom: 5%;
+    /* background-color: red; */
+    height: 520px;
+    width: 100%;
+    padding-top: 7%;
+
+
+
+  }
+
+  .AboutHeading {
+    text-align: center;
+  }
+
+  .AboutSlideContainer {
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    /* background-color: aqua; */
+  }
+
+
+  .hero {
+    width: 100%;
+    height: 100%;
+    /* background-color: whitesmoke; */
+    /* position: static; */
+    /* z-index: 1000; */
+  }
+
+  /* img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+} */
+
+  .slider {
+    /* background-color: aqua; */
+    width: 100%;
+    /* height: 100%; */
+    height: 100%;
+    /* position: relative; */
+    /* display: flex; */
+    transition: all 0.5s;
+    /* overflow: unset; */
+    border-radius: 40px;
+  }
+
+  .slide {
+    border-radius: 5px;
+    width: 100%;
+    height: 10vh;
+    /* position: relative; */
+    /* text-align: center; */
+    transition: 0.5s;
+  }
+
+
+  .slider .slide:nth-child(1) {
+    background: url("../Assets/AboutSchool.jpg");
+    background-size: 100%;
+
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(2) {
+    background: url("../Assets/AboutCollege.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(3) {
+    background: url("../Assets/AboutPG.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(4) {
+    background: url("../Assets/AboutIntern.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:nth-child(5) {
+    background: url("../Assets/AboutJob.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-position: left; */
+  }
+
+  .slider .slide:hover {
+    height: 190px;
+
+    /* cursor: pointer; */
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+
+
+}
+
+/* Styles for screens between 768px and 1023px (medium screens) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for screens between 768px and 1023px */
+
+
+  .AboutContainer {
+    margin: 0%;
+    /* background-color: red; */
+    height: 60vh;
+    width: 100%;
+    padding-top: 7%;
+
+  }
+
+  .AboutHeading {
+    text-align: center;
+  }
+
+  .AboutSlideContainer {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    /* background-color: aqua; */
+  }
+
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+    /* background-color: whitesmoke; */
+    /* position: static; */
+    /* z-index: 1000; */
+  }
+
+  /* img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+} */
+
+  .slider {
+    width: 100%;
+    height: 50vh;
+    /* position: relative; */
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+
+  .slider .slide {
+    width: 10%;
+    height: 100%;
+    /* position: relative; */
+    text-align: center;
+    transition: 0.5s;
+  }
+
+
+  .slider .slide:nth-child(1) {
+    background: url("../Assets/AboutSchool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(2) {
+    background: url("../Assets/AboutCollege.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(3) {
+    background: url("../Assets/AboutPG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(4) {
+    background: url("../Assets/AboutIntern.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(5) {
+    background: url("../Assets/AboutJob.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:hover {
+    width: 100%;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+}
+
+/* Styles for screens 1024px and above (large screens) */
+@media only screen and (min-width: 1024px) {
+
+  /* Styles for screens 1024px and above */
+
+  .AboutContainer {
+    margin: 0%;
+    /* background-color: red; */
+    height: 85vh;
+    width: 100%;
+    padding-top: 6%;
+
+  }
+
+  .AboutHeading {
+    text-align: center;
+  }
+
+  .AboutSlideContainer {
+    width: 90%;
+    height: 90%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    padding-left: 5%;
+    padding-right: 5%;
+
+
+    /* background-color: aqua; */
+  }
+
+
+  .hero {
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: whitesmoke; */
+    /* position: static; */
+    /* z-index: 1000; */
+  }
+
+  /* img {
+  max-width: 100%;
+  height: auto;
+  border-style: none;
+} */
+
+  .slider {
+    width: 100%;
+    height: 70vh;
+
+    /* position: relative; */
+    display: flex;
+    transition: all 0.5s;
+    overflow: hidden;
+    border-radius: 40px;
+  }
+
+  .slide {
+    width: 20%;
+    height: 100%;
+    /* position: relative; */
+    text-align: center;
+    transition: 0.5s;
+
+  }
+
+
+  .slider .slide:nth-child(1) {
+    background: url("../Assets/AboutSchool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(2) {
+    background: url("../Assets/AboutCollege.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(3) {
+    background: url("../Assets/AboutPG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(4) {
+    background: url("../Assets/AboutIntern.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slider .slide:nth-child(5) {
+    background: url("../Assets/AboutJob.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+
+  .slide:hover {
+    width: 100%;
+    /* cursor: pointer; */
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+
+
+}
+
+/* Styles for anything else */
+/* .AboutContainer{
+  overflow-x: hidden;
+} */

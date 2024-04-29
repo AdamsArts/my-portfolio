@@ -1,0 +1,311 @@
+
+
+.FooterContainer{
+  height: 65vh;
+  width: 100%;
+  background-color: black;
+  color: white;
+  /* position: fixed; */
+  bottom: 0;
+  
+}
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (typically mobile devices) */
+  .FooterContainer{
+    height: 65vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .FooterContents{
+    
+    height: 230px;
+    width: 100%;
+    /* background-color: rgb(121, 80, 80); */
+    /* display: flex; */
+    justify-content: space-evenly;
+    padding-top: 2%;
+  }
+
+  .FooterLinkContainer{
+    display: none;
+    height: 250px;
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: center;
+    
+  }
+  .FooterLinks{
+    margin-bottom: 1%;
+    
+    color: white;
+    transition: all 0.6s ease;
+    
+    
+  }
+  .FooterLinks:hover{
+    color: gold;
+    margin-left: 30px;
+    padding-bottom: 1px;
+  }
+  .FooterContactContainer{
+    height: 200px;
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: center;
+    display: contents;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+  }
+  .ContactDet{
+    /* background-color: bisque; */
+    margin-top: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ContactLinks{
+    color: white;
+  }
+  .FooterIcons{
+    margin-right: 10px;
+  }
+  .FooterConnectContainer{
+
+    height: 120px;
+    width: 30%;
+    /* background-color: aqua; */
+   text-align: center;
+   padding-top: 3%;
+   display: contents;
+   justify-content: center;
+   align-items: center;
+   
+
+  }
+  .SocialIconsContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .SocialIcons{
+    margin-left: 3%;
+    color: white;
+  }
+  .hrLine{
+    width: 80%;
+  }
+  .FooterCopywrite{
+    margin-top: 15%;
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    
+   
+  }
+  .copyRightContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Styles for screens between 769px and 1024px wide (typically tablets) */
+  .FooterContainer{
+    height: 55vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+  }
+
+  .FooterContents{
+    height: 230px;
+    width: 100%;
+    /* background-color: rgb(121, 80, 80); */
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+  }
+
+  .FooterLinkContainer{
+    height: 250px;
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: center;
+    
+  }
+  .FooterLinks{
+    margin-bottom: 1%;
+    
+    color: white;
+    transition: all 0.6s ease;
+    
+    
+  }
+  .FooterLinks:hover{
+    color: gold;
+    margin-left: 30px;
+    padding-bottom: 1px;
+  }
+  .FooterContactContainer{
+    height: 250px;
+    width: 30%;
+    /* background-color: aqua; */
+    text-align: center;
+
+
+  }
+  .ContactDet{
+    /* background-color: bisque; */
+    margin-top: 8px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ContactLinks{
+    color: white;
+  }
+  .FooterIcons{
+    margin-right: 10px;
+  }
+  .FooterConnectContainer{
+
+    height: 250px;
+    width: 30%;
+    /* background-color: aqua; */
+   text-align: center;
+   padding-top: 3%;
+
+  }
+  .SocialIconsContainer{
+    display: flex;
+    justify-content: center;
+  }
+  .SocialIcons{
+    margin-left: 3%;
+    color: white;
+  }
+  .hrLine{
+    width: 80%;
+  }
+  .FooterCopywrite{
+    /* height: 50px; */
+    width: 100%;
+   
+  }
+  .copyRightContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+@media screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (typically desktops) */
+ 
+    /* Styles for screens larger than 1200px */
+    .FooterContainer{
+      
+      height: 50vh;
+      width: 100%;
+      background-color: black;
+
+      color: white;
+      
+    }
+    .FooterContents{
+      height: 230px;
+      width: 100%;
+      /* background-color: rgb(121, 80, 80); */
+      display: flex;
+      justify-content: space-around;
+      padding-top: 2%;
+    }
+
+    .FooterLinkContainer{
+      height: 250px;
+      width: 30%;
+      /* background-color: aqua; */
+      text-align: center;
+      
+    }
+    .FooterLinks{
+      margin-bottom: 1%;
+      
+      color: white;
+      transition: all 0.6s ease;
+      
+      
+    }
+    .FooterLinks:hover{
+      color: gold;
+      margin-left: 30px;
+      padding-bottom: 1px;
+    }
+    .FooterContactContainer{
+      height: 250px;
+      width: 30%;
+      /* background-color: aqua; */
+      text-align: center;
+
+
+    }
+    .ContactDet{
+      /* background-color: bisque; */
+      margin-top: 8px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+    }
+
+    .ContactLinks{
+      color: white;
+    }
+    .FooterIcons{
+      margin-right: 10px;
+    }
+    .FooterConnectContainer{
+
+      height: 250px;
+      width: 30%;
+      /* background-color: aqua; */
+     text-align: center;
+     padding-top: 3%;
+
+    }
+    .SocialIconsContainer{
+      display: flex;
+      justify-content: center;
+    }
+    .SocialIcons{
+      margin-left: 3%;
+      color: white;
+    }
+    .hrLine{
+      width: 80%;
+    }
+    .FooterCopywrite{
+      height: 50px;
+      width: 100%;
+     
+    }
+    .copyRightContent{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  
+}
+
+
+  
+  
