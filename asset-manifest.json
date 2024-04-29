@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.2c2119c8.css",
-    "main.js": "/my-portfolio/static/js/main.767b601d.js",
+    "main.css": "/my-portfolio/static/css/main.1deb2844.css",
+    "main.js": "/my-portfolio/static/js/main.c5bbe442.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/AboutSchool.jpg": "/my-portfolio/static/media/AboutSchool.b5be26feb72611ac2fdf.jpg",
     "static/media/AboutCollege.jpg": "/my-portfolio/static/media/AboutCollege.02742b0f60aba67cb603.jpg",
@@ -16,16 +16,16 @@
     "static/media/Certificate2.jpg": "/my-portfolio/static/media/Certificate2.0d85b37bdc4c8aa4cc3f.jpg",
     "static/media/Certificate3.jpg": "/my-portfolio/static/media/Certificate3.11173180f1ea122b02fe.jpg",
     "static/media/Certificate5.jpg": "/my-portfolio/static/media/Certificate5.2e9249b81be6a9ff5bff.jpg",
-    "static/media/Adambasha N.pdf": "/my-portfolio/static/media/Adambasha N.3e5605a132d64c7291cc.pdf",
+    "static/media/Adambasha N.pdf": "/my-portfolio/static/media/Adambasha N.912e92d8250fa151578f.pdf",
     "static/media/certificateProject.jpg": "/my-portfolio/static/media/certificateProject.6944872815b91c9e8025.jpg",
     "static/media/onlineLawSystem.jpg": "/my-portfolio/static/media/onlineLawSystem.2304365bb17abacf924d.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.2c2119c8.css.map": "/my-portfolio/static/css/main.2c2119c8.css.map",
-    "main.767b601d.js.map": "/my-portfolio/static/js/main.767b601d.js.map",
+    "main.1deb2844.css.map": "/my-portfolio/static/css/main.1deb2844.css.map",
+    "main.c5bbe442.js.map": "/my-portfolio/static/js/main.c5bbe442.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c2119c8.css",
-    "static/js/main.767b601d.js"
+    "static/css/main.1deb2844.css",
+    "static/js/main.c5bbe442.js"
   ]
 }
