@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.1deb2844.css",
+    "main.css": "/my-portfolio/static/css/main.45e3dda0.css",
     "main.js": "/my-portfolio/static/js/main.c5bbe442.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/AboutSchool.jpg": "/my-portfolio/static/media/AboutSchool.b5be26feb72611ac2fdf.jpg",
-    "static/media/AboutCollege.jpg": "/my-portfolio/static/media/AboutCollege.02742b0f60aba67cb603.jpg",
-    "static/media/AboutIntern.jpg": "/my-portfolio/static/media/AboutIntern.f0ed0d5e7758c7176c47.jpg",
-    "static/media/AboutJob.jpg": "/my-portfolio/static/media/AboutJob.16dc1e66b8956ae3564f.jpg",
-    "static/media/AboutPG.jpg": "/my-portfolio/static/media/AboutPG.e9319ac63208133dba2d.jpg",
+    "static/media/AboutSchool.jpg": "/my-portfolio/static/media/AboutSchool.aff07624cd5790fbe244.jpg",
+    "static/media/AboutCollege.jpg": "/my-portfolio/static/media/AboutCollege.b7a669334f380f19e3f1.jpg",
+    "static/media/AboutIntern.jpg": "/my-portfolio/static/media/AboutIntern.5282a2f21b15850e293b.jpg",
+    "static/media/AboutJob.jpg": "/my-portfolio/static/media/AboutJob.966935cdc6c7cea03860.jpg",
+    "static/media/AboutPG.jpg": "/my-portfolio/static/media/AboutPG.c373b9ea14893f83d4a3.jpg",
     "static/media/164465--.jpg": "/my-portfolio/static/media/164465--.07ad4e8dc75ed7ba0953.jpg",
     "static/media/E-commerceProject.jpg.png": "/my-portfolio/static/media/E-commerceProject.jpg.47c81a13355364c67483.png",
     "static/media/PortfolioProject.jpg": "/my-portfolio/static/media/PortfolioProject.13b7908432dd81d397c3.jpg",
@@ -20,12 +20,12 @@
     "static/media/certificateProject.jpg": "/my-portfolio/static/media/certificateProject.6944872815b91c9e8025.jpg",
     "static/media/onlineLawSystem.jpg": "/my-portfolio/static/media/onlineLawSystem.2304365bb17abacf924d.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.1deb2844.css.map": "/my-portfolio/static/css/main.1deb2844.css.map",
+    "main.45e3dda0.css.map": "/my-portfolio/static/css/main.45e3dda0.css.map",
     "main.c5bbe442.js.map": "/my-portfolio/static/js/main.c5bbe442.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1deb2844.css",
+    "static/css/main.45e3dda0.css",
     "static/js/main.c5bbe442.js"
   ]
 }
